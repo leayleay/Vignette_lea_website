@@ -21,8 +21,6 @@ title: Vue d'ensemble du projet
 
 ## Description du projet
 
-> :bulb: N'oubliez pas d'effacer ou mettre en commentaires les notes (`>`) en début de section
-
 ### Contexte
 
 De nombreuses langues dans le monde ne possèdent pas ou peu de forme écrite standardisée. Les linguistes, locuteurs natifs et organismes de revitalisation linguistique cherchent des outils adaptés pour documenter, enseigner et transmettre ces langues. Les outils existants sont souvent conçus pour des langues écrites et ne correspondent pas aux besoins spécifiques de la documentation orale et visuelle.
@@ -46,24 +44,29 @@ Le développement est itératif et centré sur l’usage réel. Les fonctionnali
 
 ### Validation et Évaluation
 
-> Indiquez comment vous évaluerez que votre solution répond aux objectifs du projet (ex. scénarios d’usage, tests, retours utilisateurs, indicateurs qualitatifs ou quantitatifs).
-
+La validation se fait de façon fonctionnelle et itérative : chaque fonctionnalité est testée manuellement en parcourant des scénarios d'usage concrets (création d'un scénario, ajout de scènes, enregistrement audio, annotation linguistique). La prochaine étape sera de valider l'interface avec des utilisateurs réels pour s'assurer que l'outil est compréhensible sans explication préalable.
 
 ## Équipe
 
 | Membre            | Rôle principal                                      |
 |-------------------|-----------------------------------------------------|
 | Lea Hemidj        | Frontend — studio de création (storyboard, audio)   |
-| Ariane Laverrière | <!-- rôle -->                                       |
-| Marina Traoré     | <!-- rôle -->                                       |
+| Ariane Laverrière | Frontend — interface communautaire                  |
+| Marina Traoré     | Backend — API, base de données, gestion des langues |
 
 ## Échéancier
 
 !!! info
     Le suivi complet est disponible dans la page [Suivi de projet](suivi.md).
 
-| Activités                      | Début   |   Fin   | Livrable                            | Statut      |
-|--------------------------------|---------|---------|-------------------------------------|-------------|
-| Ouverture de projet            | 4 mai   | 15 mai  | Proposition de projet               | ✅ Terminé  |
-| Études préliminaires           | 4 mai   | 22 mai  | Document d'analyse                  | 🔄 En cours |
-| Présentation + Rapport         | 7 aout  | 14 aout | Présentation + Rapport              | ⏳ À venir  |
+| Activités                                        | Début   | Fin     | Livrable                                      | Statut         |
+|--------------------------------------------------|---------|---------|-----------------------------------------------|----------------|
+| Ouverture de projet                              | 4 mai   | 15 mai  | Proposition de projet                         | ✅ Terminé     |
+| Études préliminaires                             | 4 mai   | 22 mai  | Document d'analyse                            | ✅ Terminé     |
+| Fondations visuelles du studio                   | 1 mai   | 14 mai  | `storyboard.css` complet, palette warm, tuiles BD | ✅ Terminé  |
+| Audio, voix et annotations linguistiques         | 14 mai  | 21 mai  | Gloss interlinéaire, Personnes A/B/C, play/pause | ✅ Terminé  |
+| Interface de création et upload                  | 21 mai  | 28 mai  | Combobox langues, upload multi-fichiers, transitions | ✅ Terminé |
+| Intégration backend et publication               | 28 mai  | 18 juin | Studio connecté à l'API, publication fonctionnelle | 🔄 En cours |
+| Tests et ajustements                             | 18 juin | 10 juil | Retours d'usage, corrections, polish           | ⏳ À venir     |
+| Préparation de la présentation                   | 10 juil | 7 aout  | Démo, rapport                                 | ⏳ À venir     |
+| Présentation + Rapport final                     | 7 aout  | 14 aout | Présentation + Rapport                        | ⏳ À venir     |
