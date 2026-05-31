@@ -543,18 +543,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#structure-suggeree" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Structure suggérée
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Structure suggérée">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#methodes-de-validation" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -564,8 +552,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#resultats-obtenus" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -575,8 +563,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#analyse-critique" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -586,8 +574,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#limites-du-projet" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -595,11 +583,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -638,18 +621,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#structure-suggeree" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Structure suggérée
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Structure suggérée">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#methodes-de-validation" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -659,8 +630,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#resultats-obtenus" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -670,8 +641,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#analyse-critique" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -681,8 +652,8 @@
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#limites-du-projet" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -690,11 +661,6 @@
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -727,59 +693,48 @@
 </style>
 
 <h1 id="evaluation">Évaluation<a class="headerlink" href="#evaluation" title="Permanent link">&para;</a></h1>
-<blockquote>
-<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f4a1.png" title=":bulb:" /> Cette page sert à présenter comment le projet a été testé, évalué ou validé.<br />
-Elle ne remplace pas le rapport final, mais permet de documenter progressivement les résultats obtenus et leur interprétation.</p>
-</blockquote>
-<h2 id="structure-suggeree">Structure suggérée<a class="headerlink" href="#structure-suggeree" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>La structure suivante est donnée à titre indicatif.<br />
-Vous pouvez l’adapter selon la nature du projet.</p>
-</blockquote>
-<h3 id="methodes-de-validation">Méthodes de validation<a class="headerlink" href="#methodes-de-validation" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Présentez les approches utilisées pour valider le projet :</p>
+<h2 id="methodes-de-validation">Méthodes de validation<a class="headerlink" href="#methodes-de-validation" title="Permanent link">&para;</a></h2>
+<p>Le projet n'est pas encore terminé, donc l'évaluation est encore partielle. Pour l'instant la validation se fait surtout de façon fonctionnelle : est-ce que ce que j'ai construit marche comme prévu ?</p>
+<p>Concrètement j'ai testé chaque fonctionnalité au fur et à mesure en parcourant les scénarios d'usage concrets :</p>
 <ul>
-<li>scénarios d’utilisation ;</li>
-<li>tests fonctionnels ;</li>
-<li>tests utilisateurs ;</li>
-<li>mesures de performance ;</li>
-<li>validation expérimentale ;</li>
-<li>comparaison avec des solutions existantes.</li>
+<li>créer un scénario, ajouter des scènes, réorganiser les tuiles</li>
+<li>enregistrer une voix, l'associer à une scène, ajouter un gloss</li>
+<li>placer un marker sur une image et vérifier que la position s'affiche correctement</li>
+<li>tester l'upload multi-fichiers avec drag &amp; drop</li>
+<li>vérifier que la transition entre les vues est fluide</li>
 </ul>
-</blockquote>
-<h3 id="resultats-obtenus">Résultats obtenus<a class="headerlink" href="#resultats-obtenus" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Présentez les principaux résultats :</p>
+<p>C'est du test manuel pour l'instant, pas de tests automatisés côté frontend. Les bugs que j'ai trouvés et corrigés (voir Difficultés rencontrées) sont tous apparus pendant ces sessions de test.</p>
+<p>Pour la suite, l'idée serait d'avoir des retours d'utilisation réels avec des personnes qui utilisent l'outil pour un vrai scénario de langue. Ça permettrait de valider si l'interface est compréhensible pour quelqu'un qui n'a pas participé au développement.</p>
+<hr />
+<h2 id="resultats-obtenus">Résultats obtenus<a class="headerlink" href="#resultats-obtenus" title="Permanent link">&para;</a></h2>
+<p>Ce qui fonctionne à ce stade :</p>
 <ul>
-<li>fonctionnalités validées ;</li>
-<li>performances observées ;</li>
-<li>résultats de tests ;</li>
-<li>retours utilisateurs ;</li>
-<li>observations importantes.</li>
+<li>Le studio s'affiche correctement avec la palette warm et le style BD</li>
+<li>On peut créer un scénario, choisir une langue parmi 8000+ avec le combobox, et arriver dans le studio</li>
+<li>L'upload multi-fichiers fonctionne, les scènes apparaissent dans la grille</li>
+<li>Les voix s'assignent automatiquement (Personne A, B, C...) et le bouton play/pause est cohérent dans toute l'interface</li>
+<li>Le formulaire de gloss s'ouvre, les trois champs (transcription, gloss, traduction) se sauvegardent et s'affichent correctement</li>
+<li>Les markers se placent sur l'image et la position est bien calculée</li>
+<li>Les transitions entre les vues du studio sont animées</li>
 </ul>
-</blockquote>
-<h3 id="analyse-critique">Analyse critique<a class="headerlink" href="#analyse-critique" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Discutez des résultats obtenus :</p>
+<p>Ce qui n'est pas encore validé :</p>
 <ul>
-<li>les objectifs ont-ils été atteints ?</li>
-<li>quels éléments fonctionnent bien ?</li>
-<li>quelles limites ont été observées ?</li>
-<li>quels aspects pourraient être améliorés ?</li>
+<li>L'enregistrement audio d'urgence (EmergencyAudioRecorder) dans tous les cas limites</li>
+<li>Le comportement du studio sur mobile</li>
+<li>La publication complète d'un scénario depuis le studio</li>
+<li>Les performances avec un scénario qui a beaucoup de scènes et d'audios</li>
 </ul>
-</blockquote>
-<h3 id="limites-du-projet">Limites du projet<a class="headerlink" href="#limites-du-projet" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Présentez les principales limites du projet :</p>
-<ul>
-<li>contraintes techniques ;</li>
-<li>portée limitée ;</li>
-<li>temps disponible ;</li>
-<li>limites des données ou des tests ;</li>
-<li>dépendances externes.</li>
-</ul>
-</blockquote>
+<hr />
+<h2 id="analyse-critique">Analyse critique<a class="headerlink" href="#analyse-critique" title="Permanent link">&para;</a></h2>
+<p>Ce qui fonctionne bien c'est la direction que le studio a prise visuellement. L'interface est cohérente, le style BD donne une identité claire, et les fonctionnalités de base (ajout de scènes, audio, gloss) sont utilisables.</p>
+<p>Ce qui manque encore c'est surtout la validation par des utilisateurs réels. Tout ce que j'ai testé c'est moi qui utilise l'outil en sachant exactement comment il marche, ce qui n'est pas vraiment représentatif. Il faudrait voir si un linguiste qui découvre l'interface comprend comment créer un scénario sans explication.</p>
+<p>Le format interlinéaire (transcription / gloss / traduction) est bien implémenté techniquement, mais je ne sais pas encore si les labels dans l'interface sont assez clairs pour quelqu'un qui ne connaît pas cette notation.</p>
+<hr />
+<h2 id="limites-du-projet">Limites du projet<a class="headerlink" href="#limites-du-projet" title="Permanent link">&para;</a></h2>
+<p><strong>Temps.</strong> Le projet se termine en août et il reste encore des fonctionnalités à implémenter et à tester. Certaines parties du studio sont encore en mode sandbox (données locales, sans appel API réel) ce qui veut dire qu'elles ne sont pas encore connectées au backend.</p>
+<p><strong>Tests utilisateurs.</strong> Faute de temps, les retours d'usage réels n'ont pas encore eu lieu. L'évaluation reste pour l'instant basée sur les scénarios imaginés en début de projet.</p>
+<p><strong>Mobile.</strong> L'interface du studio n'a pas été optimisée pour les petits écrans. La grille trois colonnes et le panneau audio latéral sont pensés pour du desktop.</p>
+<p><strong>Accessibilité.</strong> L'interface n'a pas été auditée pour l'accessibilité. Certains éléments interactifs (markers, poignées de redimensionnement) seraient probablement difficiles à utiliser au clavier.</p>
 
 
 
