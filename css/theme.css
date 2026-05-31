@@ -1,0 +1,32 @@
+:root {
+  --paper:      #F5EFE3;
+  --parchment:  #E8D9B8;
+  --ochre:      #C2884B;
+  --terracotta: #8B4A2B;
+  --moss:       #4A6741;
+  --ink:        #2B231A;
+  --madder:     #A8334C;
+  --slate:      #3B5A6B;
+  --honey:      #D4A574;
+  --walnut:     #6B5942;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:          var(--terracotta);
+  --md-primary-fg-color--light:   var(--ochre);
+  --md-primary-fg-color--dark:    var(--ink);
+  --md-primary-bg-color:          var(--paper);
+  --md-primary-bg-color--light:   var(--paper);
+  --md-accent-fg-color:           var(--ochre);
+  --md-default-bg-color:          var(--paper);
+  --md-default-fg-color:          var(--ink);
+  --md-default-fg-color--light:   var(--walnut);
+  --md-default-fg-color--lighter: var(--walnut);
+  --md-typeset-a-color:           var(--slate);
+  --md-code-bg-color:             var(--parchment);
+  --md-code-fg-color:             var(--ink);
+  --md-footer-bg-color:           var(--ink);
+  --md-footer-bg-color--dark:     var(--ink);
+  --md-footer-fg-color:           var(--parchment);
+  --md-footer-fg-color--light:    var(--walnut);
+}
