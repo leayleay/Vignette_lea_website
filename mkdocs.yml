@@ -1,0 +1,80 @@
+site_name: Vignette — IFT3150
+site_description: Site de suivi du projet Vignette, cours IFT3150
+site_author: Lea Hemidj
+site_url: https://leayleay.github.io/Vignette_lea_website/
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+    
+copyright: "&copy; 2026 <b>DIRO</b> &ndash; Template de site pour le cours IFT3150 <br>Département d'informatique et de recherche opérationnelle <br>Université de Montréal"
+
+repo_name: leayleay/Vignette_lea_website
+repo_url: https://github.com/leayleay/Vignette_lea_website
+# edit_uri: edit/main/docs/
+
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/udem-diro/template-projet
+#       name: squidfunk on Fosstodon
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
+  - pymdownx.keys
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+extra_css:
+  - css/theme.css
+
+plugins:
+  - search
+
+
+nav:
+  - Vue d'ensemble: index.md
+  - Suivi: suivi.md
+  - Études préliminaires: analyse.md
+  - Réalisation: realisation.md
+  - Évaluation: evaluation.md
